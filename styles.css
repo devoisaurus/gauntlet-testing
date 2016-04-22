@@ -1,57 +1,57 @@
 .top_banner {
   display: block;
-  background: url("../img/banner.jpg") no-repeat;
-  width: 180px; /* Width of new image */
+  width: auto; /* Width of new image */
   height: auto; /* Height of new image */
   /*padding-left: 180px;  Equal to width of new image */
   max-width: 100%;
+  padding-bottom: 5px;
 }
 
-.player_win {
+
+.winner_head {
+  text-align: center;
+}
+
+#player_win {
   display: block;
-  background: url("../img/hero-win.jpg") no-repeat;
   width: 180px; /* Width of new image */
   height: auto; /* Height of new image */
-/*  padding-left: 180px;  Equal to width of new image */
+  margin: auto;
   max-width: 100%;
 }
 
 .fight_stats {
   display: block;
-  background: url("../img/stats-shield.jpg") no-repeat;
   width: 180px; /* Width of new image */
   height: auto; /* Height of new image */
-  /*padding-left: 180px;  Equal to width of new image */
+  margin: auto;
   max-width: 100%;
 }
 
 
 
-.monster_lose {
+#monster_lose {
   display: block;
-  background: url("../img/Orc-lose.jpg") no-repeat;
   width: 180px; /* Width of new image */
   height: auto; /* Height of new image */
-  /*padding-left: 180px;  Equal to width of new image */
+  margin: auto;
   max-width: 100%;
 }
 
 
 .player_lose {
   display: block;
-  background: url("../img/hero-lose.jpg") no-repeat;
   width: 180px; /* Width of new image */
   height: auto; /* Height of new image */
-/*  padding-left: 180px;  Equal to width of new image */
+  margin: auto;
   max-width: 100%;
 }
 
 .fight_stats {
   display: block;
-  background: url("../img/stats-shield.jpg") no-repeat;
   width: 180px; /* Width of new image */
   height: auto; /* Height of new image */
-  /*padding-left: 180px;  Equal to width of new image */
+  margin: auto;
   max-width: 100%;
 }
 
@@ -59,10 +59,9 @@
 
 .monster_win {
   display: block;
-  background: url("../img/orc-win.jpg") no-repeat;
   width: 180px; /* Width of new image */
   height: auto; /* Height of new image */
-  /*padding-left: 180px;  Equal to width of new image */
+  margin: auto;
   max-width: 100%;
 }
 
