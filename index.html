@@ -4,30 +4,40 @@
 			<meta charset="UTF-8">
 			<title>Document</title>
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-			<link rel="stylesheet" href="styles.css">
+			<link rel="stylesheet" href="styles/styles.css">
 		</head>
 		<body>
-		<div class="container-fluid">
-			<div class="row">
-				<section id = "player-win" class="card card--win">
-  				<div class = "top_banner col-md"></div>
-  				<div class = "player_win col-md-3"></div>
-  				<div class = "fight_stats col-md-3">You defeated the monster in {x} rounds.</div>
-  				<div class = "monster_lose col-md-3"></div>
-  				</div></div>
-  				<button class="play_again">Play Again?</button>
+            <section id = "player-win" class="card card--win">
+                    <div class="container-fluid">
+                        <div class="row">
+          				  <div class = "top_banner col-md">You Win!</div>
+                        </div>
+
+                        <div class="row">
+          				  <div class = "player_win col-md-4"><img id="player_win" src="img/hero-win.jpg" alt="hero win"> </div>
+          				  <div class = "fight_stats col-md-4">You defeated the monster in {x} rounds.</div>
+          				  <div class = "monster_lose col-md-4"><img id="monster_lose" src="img/orc-lose.jpg" alt="monster lose"></div>
+          				</div>
+
+          				<button class="play_again">Play Again?</button>
+                    </div>
   			</section>
 
-			<div class="container-fluid">
-				<div class="row">
-  				<section id = "player-lose" class="card card--lose">
-  				<div class = "top_banner col-md"></div>
-  				<div class = "player_lose col-md-3"></div>
-  				<div class = "fight_stats col-md-3">You defeated the monster in {x} rounds.</div>
-  				</div></div>
-  				<div class = "monster_win col-md-3"></div>
-  				<button class="play_again">Play Again?</button>
-  				</section>
+            <section id = "player-lose" class="card card--lose">
+                    <div class="container-fluid">
+                        <div class="row">
+                          <div class = "top_banner col-md"></div>
+                        </div>
+
+                        <div class="row">
+                          <div class = "player_lose col-md-4"><img id="player_lose" src="img/hero-lose.jpg" alt="hero lose"> </div>
+                          <div class = "fight_stats col-md-4">You defeated the monster in {x} rounds.</div>
+                          <div class = "monster_win col-md-4"><img id="monster_win"src="img/orc-win.jpg" alt="monster win"></div>
+                        </div>
+                        
+                        <button class="play_again">Play Again?</button>
+                    </div>
+            </section>
 
 			<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 		</body>

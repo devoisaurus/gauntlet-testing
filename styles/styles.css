@@ -1,0 +1,69 @@
+.top_banner {
+  display: block;
+  background: url("../img/banner.jpg") fixed center no-repeat;
+  max-width: 100%;
+}
+
+.player_win {
+  display: block;
+/*  padding-left: 180px;  Equal to width of new image */
+  max-width: 100%;
+}
+
+#player_win {
+  width: 180px; /* Width of new image */
+  height: auto; /* Height of new image */
+}
+
+.fight_stats {
+  display: block;
+  background: url("../img/stats-shield.jpg") no-repeat;
+  max-width: 100%;
+}
+
+.monster_lose {
+  display: block;
+  max-width: 100%;
+}
+
+#monster_lose {
+  width: 100%; /* Width of new image */
+  height: auto; /* Height of new image */
+}
+
+
+.player_lose {
+  display: block;
+/*  padding-left: 180px;  Equal to width of new image */
+  max-width: 100%;
+}
+
+#player_lose {
+  width: 100%; /* Width of new image */
+  height: auto; /* Height of new image */
+}
+
+.fight_stats {
+  display: block;
+  background: url("../img/stats-shield.jpg") no-repeat;
+  width: 180px; /* Width of new image */
+  height: auto; /* Height of new image */
+  /*padding-left: 180px;  Equal to width of new image */
+  max-width: 100%;
+}
+
+.monster_win {
+  display: block;
+  max-width: 100%;
+}
+
+#monster_win {
+  width: 100%; /* Width of new image */
+  height: auto; /* Height of new image */
+}
+
+
+.play_again {
+	display: block;
+  margin: 10% auto;
+}
